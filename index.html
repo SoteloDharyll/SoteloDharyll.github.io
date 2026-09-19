@@ -1,151 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dharyll Sotelo — Technical VA, Web Developer, Trader, and Automation-focused systems builder.">
-  <title>Dharyll Sotelo | Technical VA & Web Systems</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Dharyll Sotelo — Technical Virtual Assistant, Trading Systems Specialist, and Web Systems Developer.">
+<meta name="theme-color" content="#0b0d0c">
+<title>Dharyll Sotelo | Technical VA · Trading · Web Systems</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
 </head>
 <body>
-  <header class="nav">
-    <nav>
-      <a href="#expertise">Expertise</a>
-      <a href="#work">Selected Work</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<div class="noise"></div>
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Dharyll Sotelo home"><span>DS</span><strong>Dharyll Sotelo</strong></a>
+  <button class="menu" aria-label="Open navigation" aria-expanded="false">Menu</button>
+  <nav aria-label="Main navigation"><a href="#expertise">Expertise</a><a href="#work">Work</a><a href="#skills">Capabilities</a><a href="#contact">Contact</a></nav>
+</header>
+<main id="top">
+<section class="hero">
+ <div class="heroCopy reveal">
+  <p class="eyebrow"><i></i> AVAILABLE FOR REMOTE WORK</p>
+  <h1>Technical execution.<br><span>Business clarity.</span></h1>
+  <p class="lead">I build and improve digital systems for businesses—from web applications and automation to structured trading research and technical operations.</p>
+  <div class="actions"><a class="primary magnetic" href="#work">Explore selected work <b>↘</b></a><a class="secondary" href="mailto:sotelodharyll21@gmail.com">Start a conversation</a></div>
+ </div>
+ <div class="portraitWrap reveal">
+  <div class="portraitGlow"></div><img src="resources/profile-picture.png" alt="Dharyll Sotelo" fetchpriority="high">
+  <div class="portraitCard"><small>BASED IN</small><strong>Philippines</strong><span>Working globally ↗</span></div>
+ </div>
+ <div class="proof reveal"><span>01 / WEB SYSTEMS</span><span>02 / TRADING RESEARCH</span><span>03 / AUTOMATION</span><span>04 / TECHNICAL OPERATIONS</span></div>
+</section>
 
-  <main id="top">
-    <section class="hero">
-      <div class="heroCopy">
-        <p class="eyebrow">TECHNICAL VA · WEB DEVELOPER · TRADER · PROBLEM SOLVER</p>
-        <h1>Turning ideas into <span>working systems.</span></h1>
-        <p class="lead">I help businesses build, automate, and manage digital systems to save time, solve problems, and achieve reliable results.</p>
-      </div>
+<section id="expertise" class="section">
+ <div class="sectionHead reveal"><div><p class="kicker">01 — EXPERTISE</p><h2>More than task execution.<br><em>I improve the system behind it.</em></h2></div><p>I combine development, technical operations, and analytical thinking to turn complicated workflows into reliable, manageable systems.</p></div>
+ <div class="serviceGrid">
+  <article class="service reveal"><b>01</b><div><h3>Web Systems</h3><p>Business-focused applications, dashboards, authentication, database-backed features, APIs, and internal tools.</p><span>React · Next.js · Supabase · PostgreSQL</span></div><i>↗</i></article>
+  <article class="service reveal"><b>02</b><div><h3>Trading & Analysis</h3><p>Structured Forex and XAUUSD monitoring, multi-timeframe research, and rule-based signal validation.</p><span>XAUUSD · MT5 · TradingView · Research</span></div><i>↗</i></article>
+  <article class="service reveal"><b>03</b><div><h3>Automation & Operations</h3><p>Practical workflows that reduce repetitive work, connect tools, improve QA, and keep technical projects organized.</p><span>Automation · APIs · QA · Git</span></div><i>↗</i></article>
+ </div>
+</section>
 
-      <div class="portraitWrap">
-        <img src="resources/profile-picture.png" alt="Dharyll Sotelo">
-        <span class="availability">● Available for Remote Work</span>
-      </div>
+<section id="work" class="section work">
+ <div class="sectionHead reveal"><div><p class="kicker">02 — SELECTED WORK</p><h2>Built around<br><em>real problems.</em></h2></div><p>Selected systems showing how I approach product thinking, technical execution, validation, and business operations.</p></div>
+ <article class="case reveal">
+  <div class="caseCopy"><span class="tag">BUSINESS SOFTWARE / 01</span><h3>Velora</h3><p class="caseLead">A multi-tenant business management platform for modern service businesses.</p><p>Business and branch management, staff, services, booking, calendar workflows, POS, reporting, permissions, and secure data architecture.</p><div class="chips"><span>Next.js</span><span>React</span><span>Supabase</span><span>PostgreSQL</span><span>APIs</span></div></div>
+  <div class="projectImageWrap"><img class="projectImage" src="resources/velora-photo.png" alt="Velora reports interface" loading="lazy"></div>
+ </article>
+ <article class="case reverse reveal">
+  <div class="caseCopy"><span class="tag">TRADING RESEARCH / 02</span><h3>Rule-Based XAUUSD Research</h3><p class="caseLead">Turning trading concepts into repeatable, testable technical rules.</p><p>A private research and signal-validation system for multi-timeframe market analysis. Proprietary strategy logic remains private.</p><div class="chips"><span>XAUUSD</span><span>MT5</span><span>TradingView</span><span>Validation</span></div></div>
+  <div class="projectImageWrap"><img class="projectImage" src="resources/xauusd-research-photo.png" alt="XAUUSD research chart" loading="lazy"></div>
+ </article>
+ <article class="workflow reveal"><span class="tag">TECHNICAL OPERATIONS / 03</span><h3>Structured Technical Workflows</h3><p>Repeatable processes for requirements, implementation, testing, quality review, documentation, and delivery.</p><div class="flow"><span><b>01</b>Understand</span><i>→</i><span><b>02</b>Build</span><i>→</i><span><b>03</b>Validate</span><i>→</i><span><b>04</b>Deliver</span></div></article>
+</section>
 
-      <div class="actions">
-        <a class="primary" href="#work">View my work</a>
-        <a class="secondary" href="#contact">Work with me</a>
-      </div>
+<section id="skills" class="section">
+ <div class="sectionHead reveal"><div><p class="kicker">03 — CAPABILITIES</p><h2>The toolkit behind<br><em>the work.</em></h2></div></div>
+ <div class="skills">
+  <div class="skill reveal"><span>Development</span><p>React · Next.js · TypeScript · JavaScript · Supabase · PostgreSQL · API Integration · Git</p></div>
+  <div class="skill reveal"><span>Trading</span><p>Forex · XAUUSD · Technical Analysis · MT5 · TradingView · Market Research · Signal Validation</p></div>
+  <div class="skill reveal"><span>Operations</span><p>Technical VA · Automation · Quality Assurance · Technical Support · Project Organization · Documentation</p></div>
+ </div>
+</section>
 
-      <div class="proof">
-        <span>Forex & XAUUSD</span>
-        <span>React / Next.js</span>
-        <span>Supabase / PostgreSQL</span>
-        <span>Automation</span>
-      </div>
-    </section>
-
-    <section id="expertise" class="section">
-      <p class="kicker">WHAT I DO</p>
-      <h2>Technical capability with an operations mindset.</h2>
-      <div class="grid three">
-        <article>
-          <b>01</b>
-          <h3>Trading & Analysis</h3>
-          <p>Structured Forex and XAUUSD market monitoring, multi-timeframe technical analysis, trading research, and rule-based signal validation.</p>
-        </article>
-        <article>
-          <b>02</b>
-          <h3>Web Systems</h3>
-          <p>Business-focused web applications, dashboards, authentication, database-backed features, APIs, and internal tools.</p>
-        </article>
-        <article>
-          <b>03</b>
-          <h3>Automation</h3>
-          <p>Practical automation that reduces repetitive work, organizes workflows, connects tools, and improves operational efficiency.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="work" class="section work">
-      <p class="kicker">SELECTED WORK</p>
-      <h2>Systems built around real business problems.</h2>
-
-      <article class="case">
-        <div>
-          <span class="tag">BUSINESS SOFTWARE</span>
-          <h3>Velora</h3>
-          <p class="caseLead">A multi-tenant business management platform designed for service-based businesses.</p>
-          <p>Work includes business and branch management, customers, staff, services, booking, calendar workflows, POS, reporting, permissions, and secure data architecture.</p>
-          <div class="chips">
-            <span>Next.js</span><span>React</span><span>Supabase</span><span>PostgreSQL</span><span>APIs</span>
-          </div>
-        </div>
-        <div class="projectImageWrap">
-          <img class="projectImage" src="resources/velora-photo.png" alt="Velora reports interface">
-        </div>
-      </article>
-
-      <article class="case">
-        <div>
-          <span class="tag">TRADING RESEARCH</span>
-          <h3>Rule-Based XAUUSD Research System</h3>
-          <p class="caseLead">A private trading research and signal-validation system for structured market analysis.</p>
-          <p>Demonstrates my ability to translate trading concepts into repeatable technical rules, monitor multi-timeframe conditions, validate candidate setups, and evaluate research results. Proprietary strategy logic remains private.</p>
-          <div class="chips">
-            <span>XAUUSD</span><span>MT5</span><span>TradingView</span><span>Technical Analysis</span><span>Validation</span>
-          </div>
-        </div>
-        <div class="projectImageWrap">
-          <img class="projectImage" src="resources/xauusd-research-photo.png" alt="Rule-Based XAUUSD Research System chart">
-        </div>
-      </article>
-
-      <article class="case">
-        <div>
-          <span class="tag">AUTOMATION & INTERNAL TOOLS</span>
-          <h3>Structured Technical Workflows</h3>
-          <p class="caseLead">Turning repetitive or complicated technical work into organized, repeatable processes.</p>
-          <p>I design practical workflows for requirements, implementation, testing, quality review, documentation, and operational automation while keeping proprietary internal methods confidential.</p>
-          <div class="chips">
-            <span>Automation</span><span>APIs</span><span>QA</span><span>Git</span><span>Technical Operations</span>
-          </div>
-        </div>
-        <div class="flow">
-          <span>Understand</span><i>→</i><span>Build</span><i>→</i><span>Validate</span><i>→</i><span>Deliver</span>
-        </div>
-      </article>
-    </section>
-
-    <section id="skills" class="section">
-      <p class="kicker">CAPABILITIES</p>
-      <h2>Tools I use to get the work done.</h2>
-      <div class="skillGrid">
-        <div><h3>Trading</h3><p>Forex Trading · XAUUSD · Technical Analysis · MT5 · TradingView · Market Research · Signal Validation</p></div>
-        <div><h3>Development</h3><p>React · Next.js · TypeScript · JavaScript · Supabase · PostgreSQL · API Integration · Git</p></div>
-        <div><h3>Operations</h3><p>Technical VA · Automation · Quality Assurance · Technical Support · Project Organization · Documentation</p></div>
-      </div>
-    </section>
-
-    <section class="section about">
-      <p class="kicker">HOW I WORK</p>
-      <h2>I don't just complete tasks. I improve how the work gets done.</h2>
-      <p>I combine technical execution with an operations mindset. I learn the process, identify friction, build or improve the right tools, and validate the result. My goal is simple: reliable work that is easier to manage and repeat.</p>
-    </section>
-
-    <section id="contact" class="contact">
-      <p class="kicker">AVAILABLE FOR REMOTE WORK</p>
-      <h2>Need someone who can understand the work and improve the system behind it?</h2>
-      <p>I'm open to long-term Technical VA, trading support, web development, and automation opportunities.</p>
-      <div class="contactLinks">
-        <a class="primary" href="mailto:sotelodharyll21@gmail.com">Email Dharyll</a>
-        <a class="secondary" href="https://wa.me/639523958474" target="_blank" rel="noopener">WhatsApp: 09523958474</a>
-      </div>
-      <p class="directContact">sotelodharyll21@gmail.com · 09523958474</p>
-    </section>
-  </main>
-
-  <footer>
-    <span>Dharyll Sotelo</span>
-    <span>Technical VA · Trading · Web Systems · Automation</span>
-  </footer>
-</body>
-</html>
+<section id="contact" class="contact reveal">
+ <p class="kicker">04 — LET'S WORK TOGETHER</p><h2>Have a system that needs<br><em>building or improving?</em></h2>
+ <p>I'm open to long-term Technical VA, trading support, web development, and automation opportunities.</p>
+ <div class="contactLinks"><a class="primary" href="mailto:sotelodharyll21@gmail.com">sotelodharyll21@gmail.com <b>↗</b></a><a class="secondary light" href="https://wa.me/639523958474" target="_blank" rel="noopener noreferrer">WhatsApp <b>↗</b></a></div>
+</section>
+</main>
+<footer><a class="brand" href="#top"><span>DS</span><strong>Dharyll Sotelo</strong></a><p>Technical VA · Trading · Web Systems · Automation</p><a href="#top">Back to top ↑</a></footer>
+</body></html>
