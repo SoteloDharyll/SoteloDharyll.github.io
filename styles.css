@@ -63,6 +63,8 @@ img{display:block;max-width:100%}
 .nav nav a:hover{color:#fff}
 .nav nav a:hover:after{right:0}
 .menu{display:none;background:none;border:0;color:inherit}
+.nav.scrolled{box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.nav.compact{transform:translateY(-8px);height:66px}
 
 .hero{
   position:relative;
